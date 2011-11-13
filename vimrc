@@ -17,16 +17,6 @@ set autoindent
 set colorcolumn=80
 hi ColorColumn guibg=Purple
 
-
-"if has("gui_running")
-"    set guioptions-=T   
-"    set guioptions-=L
-"    set guioptions-=R 
-"    set guioptions-=b  
-"    set guifont=Andale\ Mono:h12
-"endif
-
-
 "toggle nerd tree
 nnoremap <silent> <F7> :NERDTreeToggle /Users/cweibel/Documents/dev<CR>
 
