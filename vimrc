@@ -15,7 +15,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set colorcolumn=80
-"hi ColorColumn guibg=Purple
+hi ColorColumn guibg=Purple
 
 
 "if has("gui_running")
@@ -28,11 +28,11 @@ set colorcolumn=80
 
 
 "toggle nerd tree
-"nnoremap <silent> <F7> :NERDTreeToggle /Users/cweibel/Documents/dev<CR>
+nnoremap <silent> <F7> :NERDTreeToggle /Users/cweibel/Documents/dev<CR>
 
 
 "tag list
-"nnoremap <silent> <F8> :TlistToggle<CR>
-"let Tlist_Use_Right_Window = 1
-"let Tlist_Auto_Highlight_Tag = 1
-"let Tlist_Auto_Update = 1
+nnoremap <silent> <F8> :TlistToggle<CR>
+let Tlist_Use_Right_Window = 1
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Auto_Update = 1
