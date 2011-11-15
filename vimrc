@@ -8,6 +8,10 @@ filetype on
 syntax on
 colorscheme ir_black
 
+let mapleader=","
+
+nmap <leader>w :w!<cr>
+
 set number
 set nowrap
 set tabstop=4
@@ -26,3 +30,6 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 let Tlist_Use_Right_Window = 1
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
+
+"Command T
+let g:CommandTMaxHeight = 15
