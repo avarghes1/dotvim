@@ -24,7 +24,7 @@ hi ColorColumn guibg=Purple
 set foldmethod=manual
 
 "toggle nerd tree
-nnoremap <silent> <F7> :NERDTreeToggle /Users/cweibel/Documents/dev<CR>
+nnoremap <silent> <F7> :NERDTreeToggle ~/Documents/dev<CR>
 
 
 "tag list
@@ -35,3 +35,6 @@ let Tlist_Auto_Update = 1
 
 "Command T
 let g:CommandTMaxHeight = 15
+
+"change to my working dir
+cd ~/Documents/dev
