@@ -5,6 +5,7 @@ set nocompatible
 set langmenu=none
 
 filetype on
+filetype plugin on
 syntax on
 colorscheme ir_black
 

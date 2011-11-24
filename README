@@ -5,3 +5,7 @@ Installation
 Create symklinks
     ln -s ~/dotfiles/vimrc ~/.vimrc
     ln -s ~/dotfiles/gvimrc ~/.gvimrc
+    
+Notes:
+    For the jslint had to replace jslint-core with latest
+    https://raw.github.com/douglascrockford/JSLint/master/jslint.js
