@@ -21,6 +21,7 @@ set expandtab
 set autoindent
 set colorcolumn=80
 hi ColorColumn guibg=Purple
+set foldmethod=manual
 
 "toggle nerd tree
 nnoremap <silent> <F7> :NERDTreeToggle /Users/cweibel/Documents/dev<CR>
