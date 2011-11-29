@@ -55,6 +55,10 @@ set foldlevel=1
 " search highlighting
 set hlsearch
 
+" set list characters
+set list
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 " enable javascript autocomplete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
