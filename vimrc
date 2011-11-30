@@ -42,9 +42,9 @@ set laststatus=2
 " always show current mode
 set showmode
 
-" set column to 80 and make it a pretty purple
+" set column to 80 and make it gray 
 set colorcolumn=80
-hi ColorColumn guibg=Purple
+hi ColorColumn guibg=#4D4D4D
 
 " folding stuff 
 set foldmethod=indent
@@ -55,9 +55,11 @@ set foldlevel=1
 " search highlighting
 set hlsearch
 
-" set list characters
-set list
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+" set list characters - this is useful, but somehow anoying in console.
+if has('gui_running')
+    set list
+    set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<
+endif
 
 " enable javascript autocomplete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -74,9 +76,18 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 let Tlist_Use_Right_Window = 1
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
+" only show functions in php
+let tlist_php_settings='php;f:function'
 
 " Command T
 let g:CommandTMaxHeight = 15
 
 " change to my working dir
 cd /empire/trunk
+
+" PHP Documentor
+source ~/.vim/bundle/phpdoc/plugin/php-doc.vim 
+inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
+nnoremap <C-P> :call PhpDocSingle()<CR> 
+vnoremap <C-P> :call PhpDocRange()<CR> 
+
