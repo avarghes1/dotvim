@@ -37,3 +37,6 @@
 [submodule "bundle/indent-guides"]
 	path = bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/phpdoc"]
+	path = bundle/phpdoc
+	url = https://github.com/vexxor/phpdoc.vim.git
