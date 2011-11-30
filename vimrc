@@ -66,7 +66,7 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 " map <F2> mzgg=G`z<CR>
 
 " nerd tree
-nnoremap <silent> <F7> :NERDTreeToggle ~/Documents/dev/wps/www<CR>
+nnoremap <silent> <F7> :NERDTreeToggle /empire/trunk<CR>
 
 
 " tag list
@@ -79,4 +79,4 @@ let Tlist_Auto_Update = 1
 let g:CommandTMaxHeight = 15
 
 " change to my working dir
-cd ~/Documents/dev/wps/www
+cd /empire/trunk
