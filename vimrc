@@ -46,6 +46,12 @@ set showmode
 set colorcolumn=80
 hi ColorColumn guibg=#4D4D4D
 
+set cursorline
+
+" change cursor color
+hi iCursor guibg=#FFFFCC
+hi Cursor guibg=#FFFFCC
+
 " folding stuff 
 set foldmethod=indent
 set foldnestmax=5
@@ -58,7 +64,7 @@ set hlsearch
 " set list characters - this is useful, but somehow anoying in console.
 if has('gui_running')
     set list
-    set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<
+    set listchars=tab:>-,trail:.,extends:>,precedes:<
 endif
 
 " enable javascript autocomplete
@@ -68,14 +74,17 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 " map <F2> mzgg=G`z<CR>
 
 " nerd tree
-nnoremap <silent> <F7> :NERDTreeToggle /empire/trunk<CR>
+nnoremap <Leader>n :NERDTreeToggle /empire/trunk<CR>
 
 
 " tag list
-nnoremap <silent> <F8> :TlistToggle<CR>
+nnoremap <Leader>l :TlistToggle<CR>
 let Tlist_Use_Right_Window = 1
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
+let Tlist_Show_One_File = 1
+let Tlist_Sort_Type = "name"
+let Tlist_Enable_Fold_Column = 0
 " only show functions in php
 let tlist_php_settings='php;f:function'
 
