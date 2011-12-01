@@ -22,7 +22,7 @@ let mapleader=","
 " escape is to hard for me too
 nmap <leader>w :w!<cr>
 
-" tabs ar four spaces
+" tabs are four spaces
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -46,7 +46,8 @@ set showmode
 set colorcolumn=80
 hi ColorColumn guibg=#4D4D4D
 
-set cursorline
+"this is helpful (at least to me) but incredibly slow
+"set cursorline
 
 " change cursor color
 hi iCursor guibg=#FFFFCC
@@ -61,7 +62,7 @@ set foldlevel=1
 " search highlighting
 set hlsearch
 
-" set list characters - this is useful, but somehow anoying in console.
+" set list characters - this is useful, but somehow annoying in console.
 if has('gui_running')
     set list
     set listchars=tab:>-,trail:.,extends:>,precedes:<
@@ -94,7 +95,7 @@ let g:CommandTMaxHeight = 15
 " change to my working dir
 cd /empire/trunk
 
-" PHP Documentor
+" PHP Documenter
 source ~/.vim/bundle/phpdoc/plugin/php-doc.vim 
 inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
 nnoremap <C-P> :call PhpDocSingle()<CR> 
