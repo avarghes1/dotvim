@@ -24,7 +24,8 @@ hightlight the `<cmd -r>`
 __Buffer Explorer__  
 `<leader b e>`
 
-
+__Indent__
+<leader i g>`
 
 ========================
 __Install GVIM on Redhat 5__
