@@ -19,7 +19,7 @@ __ZenCoding__
 type stuff them `<cntr Y ,>`
 
 __T-Comment__  
-hightlight the `<cmd -r>`
+hightlight the `<cmd __>`
 
 __Buffer Explorer__  
 `<leader b e>`
@@ -27,7 +27,12 @@ __Buffer Explorer__
 __Indent__
 <leader i g>`
 
-========================
+__Indent Guides__
+<leader i g>
+
+__Easy Motion__
+<leader leader e>
+
 __Install GVIM on Redhat 5__
 
 yum install rpm-build redhat-rpm-config
