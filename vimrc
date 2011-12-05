@@ -93,11 +93,10 @@ let tlist_php_settings='php;f:function'
 let g:CommandTMaxHeight = 15
 
 " change to my working dir
-cd /empire/trunk
+cd /Users/cweibel/Documents/dev/wps
 
 " PHP Documenter
 source ~/.vim/bundle/phpdoc/plugin/php-doc.vim 
 inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
-

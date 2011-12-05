@@ -43,3 +43,9 @@
 [submodule "bundle/DBGp-client"]
 	path = bundle/DBGp-client
 	url = https://github.com/vim-scripts/DBGp-client.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

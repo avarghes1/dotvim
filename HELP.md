@@ -29,13 +29,15 @@ hightlight the `<cmd __>`
 __Buffer Explorer__  
 `<leader b e>`
 
+__Indent__
+<leader i g>`
+
 __Indent Guides__
 <leader i g>
 
 __Easy Motion__
 <leader leader e>
 
-========================
 __Install GVIM on Redhat 5__
 
 yum install rpm-build redhat-rpm-config
