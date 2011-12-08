@@ -55,3 +55,6 @@
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/zeekay/vim-autoclose.git
+[submodule "bundle/delimitmate"]
+	path = bundle/delimitmate
+	url = https://github.com/Raimondi/delimitMate.git
