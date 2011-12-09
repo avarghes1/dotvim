@@ -49,6 +49,9 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/piv"]
+	path = bundle/piv
+	url = https://github.com/spf13/PIV.git
 [submodule "bundle/winwalker"]
 	path = bundle/winwalker
 	url = https://github.com/vim-scripts/WinWalker.vim.git

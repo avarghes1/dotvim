@@ -8,6 +8,11 @@ or
 __Diff__  
 Open files in vsplit the `:diffthis` on each file  
 
+__Spelling__
+`set spell, nospell`
+`:z=` get list
+
+
 `do` - Get changes from other window into the current window.  
 `dp` - Put the changes from current window into the other window.  
 `]c` - Jump to the next change.  
