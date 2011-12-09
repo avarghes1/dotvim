@@ -52,3 +52,12 @@
 [submodule "bundle/piv"]
 	path = bundle/piv
 	url = https://github.com/spf13/PIV.git
+[submodule "bundle/winwalker"]
+	path = bundle/winwalker
+	url = https://github.com/vim-scripts/WinWalker.vim.git
+[submodule "bundle/autoclose"]
+	path = bundle/autoclose
+	url = https://github.com/zeekay/vim-autoclose.git
+[submodule "bundle/delimitmate"]
+	path = bundle/delimitmate
+	url = https://github.com/Raimondi/delimitMate.git
