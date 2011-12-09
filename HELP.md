@@ -1,8 +1,10 @@
-### VIM ###
+### VIM
 
-__Basic Commands__  
-`:retab` - converts tabs to spaces
+##### Basic Commands 
 
+    :retab      ;converts tabs to spaces
+et 
+or
 __Diff__  
 Open files in vsplit the `:diffthis` on each file  
 

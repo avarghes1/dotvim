@@ -64,8 +64,8 @@ hi Cursor guibg=#FFFFFF
 hi iCursor guibg=#FF0000
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:hor100-iCursor
-set guicursor+=n-v-c:blinkon0
-set guicursor+=i:blinkwait10
+set guicursor+=n-v-c-i:blinkon0
+"set guicursor+=i:blinkwait10
 
 
 " folding stuff 
