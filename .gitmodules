@@ -61,3 +61,9 @@
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
 	url = git://github.com/Raimondi/delimitMate.git
+[submodule "bundle/showmarks"]
+	path = bundle/showmarks
+    url = git://github.com/vim-scripts/ShowMarks.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+    url = git://github.com/vim-scripts/ShowMarks.git
