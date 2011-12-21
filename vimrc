@@ -4,6 +4,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set nocompatible
+set background=dark
 set langmenu=none
 
 filetype on
@@ -57,7 +58,9 @@ set colorcolumn=80
 hi ColorColumn guibg=#4D4D4D
 
 "this is helpful (at least to me) but incredibly slow
-"set cursorline
+set cursorline                  " highlight current line
+hi cursorline guibg=#333333     " highlight bg color of current line
+hi CursorColumn guibg=#333333   " highlight cursor
 
 " change cursor color
 hi Cursor guibg=#FFFFFF
@@ -68,7 +71,7 @@ set guicursor+=n-v-c-i:blinkon0
 "set guicursor+=i:blinkwait10
 
 
-" folding stuff 
+" folding stuff
 set foldmethod=indent
 set foldnestmax=5
 set nofoldenable
@@ -125,7 +128,9 @@ let NERDTreeIgnore=['\.DS_Store', '\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '
 
 nnoremap <Leader>l :TagbarToggle <CR> 
 
-" tag list
+" tag list - I don't use this anymore, but i'll keep this around for a bit
+" longer
+"
 " nnoremap <Leader>l :TlistToggle<CR>
 " let Tlist_Use_Right_Window = 1
 " let Tlist_Auto_Highlight_Tag = 1
@@ -150,6 +155,27 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 nnoremap <Leader>g :GundoToggle<CR>
 let g:gundo_help = 0
 
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_mode_map = { 'mode': 'active',
+                            \ 'active_filetypes': ['ruby', 'php', 'java'],
+                            \ 'passive_filetypes': ['html', 'javascript'] }
+
+" ShowMarks
+let showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+" Don't leave on by default, use :ShowMarksOn to enable
+let g:showmarks_enable = 0
+" For marks a-z
+highlight ShowMarksHLl gui=bold guibg=LightBlue guifg=Blue
+" For marks A-Z
+highlight ShowMarksHLu gui=bold guibg=LightRed guifg=DarkRed
+" For all other marks
+highlight ShowMarksHLo gui=bold guibg=LightYellow guifg=DarkYellow
+" For multiple marks on the same line.
+highlight ShowMarksHLm gui=bold guibg=LightGreen guifg=DarkGreen
+
 " delete trailing white space
 func! DeleteTrailingWS()
     exe "normal mz"
@@ -160,7 +186,7 @@ autocmd BufWrite *.(php|js) :call DeleteTrailingWS()
 
 
 " For when you forget to sudo.. Really Write the file.
-" cmap w!! w !sudodo tee % >/dev/null
+cmap w!! w !sudodo tee % >/dev/null
 
 "function! AutoHighlightToggle()
 "    let @/ = ''
