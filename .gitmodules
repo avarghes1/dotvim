@@ -1,63 +1,63 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = ssh://github.com/scrooloose/nerdtree.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
 [submodule "bundle/taglist"]
 	path = bundle/taglist
-	url = https://github.com/vim-scripts/taglist.vim.git
+	url = ssh://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
+	url = ssh://github.com/msanders/snipmate.vim.git
 [submodule "bundle/jslint"]
 	path = bundle/jslint
-	url = https://github.com/hallettj/jslint.vim.git
+	url = ssh://github.com/hallettj/jslint.vim.git
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
-	url = https://github.com/gregsexton/MatchTag.git
+	url = ssh://github.com/gregsexton/MatchTag.git
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = https://github.com/tpope/vim-surround.git
+	url = ssh://github.com/tpope/vim-surround.git
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
-	url = https://github.com/tomtom/tcomment_vim.git
+	url = ssh://github.com/tomtom/tcomment_vim.git
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
+	url = ssh://github.com/Lokaltog/vim-easymotion.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+	url = ssh://github.com/ervandew/supertab.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = https://github.com/markabe/bufexplorer.git
+	url = ssh://github.com/markabe/bufexplorer.git
 [submodule "bundle/ZenCoding"]
 	path = bundle/ZenCoding
-	url = https://github.com/vim-scripts/ZenCoding.vim.git
+	url = ssh://github.com/vim-scripts/ZenCoding.vim.git
 [submodule "bundle/indent-guides"]
 	path = bundle/indent-guides
-	url = https://github.com/nathanaelkane/vim-indent-guides.git
+	url = ssh://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "bundle/phpdoc"]
 	path = bundle/phpdoc
-	url = https://github.com/vexxor/phpdoc.vim.git
+	url = ssh://github.com/vexxor/phpdoc.vim.git
 [submodule "bundle/DBGp-client"]
 	path = bundle/DBGp-client
-	url = https://github.com/vim-scripts/DBGp-client.git
+	url = ssh://github.com/vim-scripts/DBGp-client.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
-	url = https://github.com/sjl/gundo.vim.git
+	url = ssh://github.com/sjl/gundo.vim.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
+	url = ssh://github.com/majutsushi/tagbar.git
 [submodule "bundle/piv"]
 	path = bundle/piv
-	url = https://github.com/spf13/PIV.git
+	url = ssh://github.com/spf13/PIV.git
 [submodule "bundle/winwalker"]
 	path = bundle/winwalker
-	url = https://github.com/vim-scripts/WinWalker.vim.git
+	url = ssh://github.com/vim-scripts/WinWalker.vim.git
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
-	url = https://github.com/zeekay/vim-autoclose.git
+	url = ssh://github.com/zeekay/vim-autoclose.git
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
-	url = https://github.com/Raimondi/delimitMate.git
+	url = ssh://github.com/Raimondi/delimitMate.git
